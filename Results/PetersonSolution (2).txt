@@ -1,0 +1,1452 @@
+=== Generated Jobs ===
+User: P2, Job: Scan, Pages: 6, Arrival Time: 1s
+User: P4, Job: Scan, Pages: 2, Arrival Time: 1s
+User: P3, Job: Print, Pages: 9, Arrival Time: 2s
+User: P4, Job: Scan, Pages: 6, Arrival Time: 2s
+User: P5, Job: Print, Pages: 12, Arrival Time: 2s
+User: P1, Job: Print, Pages: 9, Arrival Time: 4s
+User: P3, Job: Scan, Pages: 14, Arrival Time: 4s
+User: P5, Job: Scan, Pages: 46, Arrival Time: 4s
+User: P2, Job: Print, Pages: 37, Arrival Time: 5s
+User: P2, Job: Print, Pages: 4, Arrival Time: 6s
+User: P4, Job: Print, Pages: 15, Arrival Time: 6s
+User: P2, Job: Scan, Pages: 5, Arrival Time: 7s
+User: P3, Job: Print, Pages: 7, Arrival Time: 8s
+User: P5, Job: Scan, Pages: 15, Arrival Time: 8s
+User: P1, Job: Print, Pages: 3, Arrival Time: 9s
+User: P4, Job: Print, Pages: 9, Arrival Time: 9s
+User: P5, Job: Print, Pages: 14, Arrival Time: 9s
+User: P2, Job: Scan, Pages: 21, Arrival Time: 11s
+User: P3, Job: Print, Pages: 11, Arrival Time: 11s
+User: P4, Job: Scan, Pages: 35, Arrival Time: 11s
+User: P3, Job: Scan, Pages: 2, Arrival Time: 12s
+User: P1, Job: Print, Pages: 10, Arrival Time: 14s
+User: P4, Job: Print, Pages: 8, Arrival Time: 14s
+User: P5, Job: Scan, Pages: 33, Arrival Time: 14s
+User: P1, Job: Print, Pages: 13, Arrival Time: 15s
+User: P1, Job: Scan, Pages: 5, Arrival Time: 16s
+User: P2, Job: Scan, Pages: 11, Arrival Time: 16s
+User: P3, Job: Scan, Pages: 5, Arrival Time: 16s
+User: P3, Job: Scan, Pages: 45, Arrival Time: 17s
+User: P4, Job: Print, Pages: 13, Arrival Time: 18s
+User: P5, Job: Scan, Pages: 10, Arrival Time: 18s
+User: P1, Job: Print, Pages: 15, Arrival Time: 20s
+User: P4, Job: Print, Pages: 12, Arrival Time: 20s
+User: P2, Job: Print, Pages: 7, Arrival Time: 21s
+User: P5, Job: Scan, Pages: 12, Arrival Time: 21s
+User: P3, Job: Print, Pages: 9, Arrival Time: 22s
+User: P4, Job: Scan, Pages: 15, Arrival Time: 22s
+User: P1, Job: Print, Pages: 8, Arrival Time: 24s
+User: P2, Job: Scan, Pages: 14, Arrival Time: 24s
+User: P3, Job: Print, Pages: 2, Arrival Time: 24s
+User: P1, Job: Print, Pages: 21, Arrival Time: 25s
+User: P4, Job: Scan, Pages: 17, Arrival Time: 25s
+User: P5, Job: Scan, Pages: 49, Arrival Time: 26s
+User: P2, Job: Print, Pages: 2, Arrival Time: 27s
+User: P3, Job: Scan, Pages: 14, Arrival Time: 27s
+User: P5, Job: Print, Pages: 9, Arrival Time: 27s
+User: P1, Job: Scan, Pages: 5, Arrival Time: 30s
+User: P2, Job: Scan, Pages: 8, Arrival Time: 30s
+User: P5, Job: Scan, Pages: 2, Arrival Time: 32s
+User: P1, Job: Scan, Pages: 9, Arrival Time: 35s
+
+=== Choose Execution Type ===
+1. Unsynchronized Execution
+2. Execution with Mutex
+3. Execution with Semaphores
+4. Execution with Peterson's Solution
+5. Exit
+Enter your choice: 4
+
+=== Execution with Peterson's Solution ===
+P4 started a Scan job on Scanner (2 pages)
+P4: Scan on Scanner - Page 1 completed
+P2 started a Scan job on Scanner (6 pages)
+P2: Scan on Scanner - Page 1 completed
+P4 started a Scan job on Scanner (2 pages)
+P4: Scan on Scanner - Page 2 completed
+P2 started a Scan job on Scanner (6 pages)
+P4 completed the Scan job
+P2: Scan on Scanner - Page 2 completed
+P2 started a Scan job on Scanner (6 pages)
+P2: Scan on Scanner - Page 3 completed
+P2 started a Scan job on Scanner (6 pages)
+P2: Scan on Scanner - Page 4 completed
+P2 started a Scan job on Scanner (6 pages)
+P2: Scan on Scanner - Page 5 completed
+P2 started a Scan job on Scanner (6 pages)
+P2: Scan on Scanner - Page 6 completed
+P2 completed the Scan job
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 1 completed
+P4 started a Scan job on Scanner (6 pages)
+P4: Scan on Scanner - Page 1 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 2 completed
+P4 started a Scan job on Scanner (6 pages)
+P4: Scan on Scanner - Page 2 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 3 completed
+P4 started a Scan job on Scanner (6 pages)
+P4: Scan on Scanner - Page 3 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 4 completed
+P4 started a Scan job on Scanner (6 pages)
+P4: Scan on Scanner - Page 4 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 5 completed
+P4 started a Scan job on Scanner (6 pages)
+P4: Scan on Scanner - Page 5 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 6 completed
+P4 started a Scan job on Scanner (6 pages)
+P4: Scan on Scanner - Page 6 completed
+P3 started a Print job on Printer (9 pages)
+P4 completed the Scan job
+P3: Print on Printer - Page 7 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 8 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 9 completed
+P3 completed the Print job
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 1 completed
+P1 started a Print job on Printer (9 pages)
+P1: Print on Printer - Page 1 completed
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 2 completed
+P1 started a Print job on Printer (9 pages)
+P1: Print on Printer - Page 2 completed
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 3 completed
+P1 started a Print job on Printer (9 pages)
+P1: Print on Printer - Page 3 completed
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 4 completed
+P1 started a Print job on Printer (9 pages)
+P1: Print on Printer - Page 4 completed
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 5 completed
+P1 started a Print job on Printer (9 pages)
+P1: Print on Printer - Page 5 completed
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 6 completed
+P1 started a Print job on Printer (9 pages)
+P1: Print on Printer - Page 6 completed
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 7 completed
+P1 started a Print job on Printer (9 pages)
+P1: Print on Printer - Page 7 completed
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 8 completed
+P1 started a Print job on Printer (9 pages)
+P1: Print on Printer - Page 8 completed
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 9 completed
+P1 started a Print job on Printer (9 pages)
+P1: Print on Printer - Page 9 completed
+P5 started a Print job on Printer (12 pages)
+P1 completed the Print job
+P5: Print on Printer - Page 10 completed
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 11 completed
+P5 started a Print job on Printer (12 pages)
+P5: Print on Printer - Page 12 completed
+P5 completed the Print job
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 1 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 1 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 2 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 2 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 3 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 3 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 4 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 4 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 5 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 5 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 6 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 6 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 7 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 7 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 8 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 8 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 9 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 9 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 10 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 10 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 11 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 11 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 12 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 12 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 13 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 13 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 14 completed
+P3 completed the Scan job
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 14 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 15 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 16 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 17 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 18 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 19 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 20 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 21 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 22 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 23 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 24 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 25 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 26 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 27 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 28 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 29 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 30 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 31 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 32 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 33 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 34 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 35 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 36 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 37 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 38 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 39 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 40 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 41 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 42 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 43 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 44 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 45 completed
+P5 started a Scan job on Scanner (46 pages)
+P5: Scan on Scanner - Page 46 completed
+P5 completed the Scan job
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 1 completed
+P2 started a Print job on Printer (4 pages)
+P2: Print on Printer - Page 1 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 2 completed
+P2 started a Print job on Printer (4 pages)
+P2: Print on Printer - Page 2 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 3 completed
+P2 started a Print job on Printer (4 pages)
+P2: Print on Printer - Page 3 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 4 completed
+P2 started a Print job on Printer (4 pages)
+P2: Print on Printer - Page 4 completed
+P2 started a Print job on Printer (37 pages)
+P2 completed the Print job
+P2: Print on Printer - Page 5 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 6 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 7 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 8 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 9 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 10 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 11 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 12 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 13 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 14 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 15 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 16 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 17 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 18 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 19 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 20 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 21 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 22 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 23 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 24 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 25 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 26 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 27 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 28 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 29 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 30 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 31 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 32 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 33 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 34 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 35 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 36 completed
+P2 started a Print job on Printer (37 pages)
+P2: Print on Printer - Page 37 completed
+P2 completed the Print job
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 1 completed
+P2 started a Scan job on Scanner (5 pages)
+P2: Scan on Scanner - Page 1 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 2 completed
+P2 started a Scan job on Scanner (5 pages)
+P2: Scan on Scanner - Page 2 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 3 completed
+P2 started a Scan job on Scanner (5 pages)
+P2: Scan on Scanner - Page 3 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 4 completed
+P2 started a Scan job on Scanner (5 pages)
+P2: Scan on Scanner - Page 4 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 5 completed
+P2 started a Scan job on Scanner (5 pages)
+P2: Scan on Scanner - Page 5 completed
+P2 completed the Scan job
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 6 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 7 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 8 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 9 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 10 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 11 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 12 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 13 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 14 completed
+P4 started a Print job on Printer (15 pages)
+P4: Print on Printer - Page 15 completed
+P4 completed the Print job
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 1 completed
+P3 started a Print job on Printer (7 pages)
+P3: Print on Printer - Page 1 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 2 completed
+P3 started a Print job on Printer (7 pages)
+P3: Print on Printer - Page 2 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 3 completed
+P3 started a Print job on Printer (7 pages)
+P3: Print on Printer - Page 3 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 4 completed
+P3 started a Print job on Printer (7 pages)
+P3: Print on Printer - Page 4 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 5 completed
+P3 started a Print job on Printer (7 pages)
+P3: Print on Printer - Page 5 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 6 completed
+P3 started a Print job on Printer (7 pages)
+P3: Print on Printer - Page 6 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 7 completed
+P3 started a Print job on Printer (7 pages)
+P3: Print on Printer - Page 7 completed
+P5 started a Scan job on Scanner (15 pages)
+P3 completed the Print job
+P5: Scan on Scanner - Page 8 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 9 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 10 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 11 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 12 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 13 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 14 completed
+P5 started a Scan job on Scanner (15 pages)
+P5: Scan on Scanner - Page 15 completed
+P5 completed the Scan job
+P1 started a Print job on Printer (3 pages)
+P1: Print on Printer - Page 1 completed
+P4 started a Print job on Printer (9 pages)
+P4: Print on Printer - Page 1 completed
+P1 started a Print job on Printer (3 pages)
+P1: Print on Printer - Page 2 completed
+P4 started a Print job on Printer (9 pages)
+P4: Print on Printer - Page 2 completed
+P1 started a Print job on Printer (3 pages)
+P1: Print on Printer - Page 3 completed
+P1 completed the Print job
+P4 started a Print job on Printer (9 pages)
+P4: Print on Printer - Page 3 completed
+P4 started a Print job on Printer (9 pages)
+P4: Print on Printer - Page 4 completed
+P4 started a Print job on Printer (9 pages)
+P4: Print on Printer - Page 5 completed
+P4 started a Print job on Printer (9 pages)
+P4: Print on Printer - Page 6 completed
+P4 started a Print job on Printer (9 pages)
+P4: Print on Printer - Page 7 completed
+P4 started a Print job on Printer (9 pages)
+P4: Print on Printer - Page 8 completed
+P4 started a Print job on Printer (9 pages)
+P4: Print on Printer - Page 9 completed
+P4 completed the Print job
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 1 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 1 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 2 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 2 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 3 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 3 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 4 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 4 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 5 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 5 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 6 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 6 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 7 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 7 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 8 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 8 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 9 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 9 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 10 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 10 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 11 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 11 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 12 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 12 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 13 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 13 completed
+P5 started a Print job on Printer (14 pages)
+P5: Print on Printer - Page 14 completed
+P5 completed the Print job
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 14 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 15 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 16 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 17 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 18 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 19 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 20 completed
+P2 started a Scan job on Scanner (21 pages)
+P2: Scan on Scanner - Page 21 completed
+P2 completed the Scan job
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 1 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 1 completed
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 2 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 2 completed
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 3 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 3 completed
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 4 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 4 completed
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 5 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 5 completed
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 6 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 6 completed
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 7 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 7 completed
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 8 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 8 completed
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 9 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 9 completed
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 10 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 10 completed
+P3 started a Print job on Printer (11 pages)
+P3: Print on Printer - Page 11 completed
+P4 started a Scan job on Scanner (35 pages)
+P3 completed the Print job
+P4: Scan on Scanner - Page 11 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 12 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 13 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 14 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 15 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 16 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 17 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 18 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 19 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 20 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 21 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 22 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 23 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 24 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 25 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 26 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 27 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 28 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 29 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 30 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 31 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 32 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 33 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 34 completed
+P4 started a Scan job on Scanner (35 pages)
+P4: Scan on Scanner - Page 35 completed
+P4 completed the Scan job
+P3 started a Scan job on Scanner (2 pages)
+P3: Scan on Scanner - Page 1 completed
+P1 started a Print job on Printer (10 pages)
+P1: Print on Printer - Page 1 completed
+P3 started a Scan job on Scanner (2 pages)
+P3: Scan on Scanner - Page 2 completed
+P3 completed the Scan job
+P1 started a Print job on Printer (10 pages)
+P1: Print on Printer - Page 2 completed
+P1 started a Print job on Printer (10 pages)
+P1: Print on Printer - Page 3 completed
+P1 started a Print job on Printer (10 pages)
+P1: Print on Printer - Page 4 completed
+P1 started a Print job on Printer (10 pages)
+P1: Print on Printer - Page 5 completed
+P1 started a Print job on Printer (10 pages)
+P1: Print on Printer - Page 6 completed
+P1 started a Print job on Printer (10 pages)
+P1: Print on Printer - Page 7 completed
+P1 started a Print job on Printer (10 pages)
+P1: Print on Printer - Page 8 completed
+P1 started a Print job on Printer (10 pages)
+P1: Print on Printer - Page 9 completed
+P1 started a Print job on Printer (10 pages)
+P1: Print on Printer - Page 10 completed
+P1 completed the Print job
+P4 started a Print job on Printer (8 pages)
+P4: Print on Printer - Page 1 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 1 completed
+P4 started a Print job on Printer (8 pages)
+P4: Print on Printer - Page 2 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 2 completed
+P4 started a Print job on Printer (8 pages)
+P4: Print on Printer - Page 3 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 3 completed
+P4 started a Print job on Printer (8 pages)
+P4: Print on Printer - Page 4 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 4 completed
+P4 started a Print job on Printer (8 pages)
+P4: Print on Printer - Page 5 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 5 completed
+P4 started a Print job on Printer (8 pages)
+P4: Print on Printer - Page 6 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 6 completed
+P4 started a Print job on Printer (8 pages)
+P4: Print on Printer - Page 7 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 7 completed
+P4 started a Print job on Printer (8 pages)
+P4: Print on Printer - Page 8 completed
+P4 completed the Print job
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 8 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 9 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 10 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 11 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 12 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 13 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 14 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 15 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 16 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 17 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 18 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 19 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 20 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 21 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 22 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 23 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 24 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 25 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 26 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 27 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 28 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 29 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 30 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 31 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 32 completed
+P5 started a Scan job on Scanner (33 pages)
+P5: Scan on Scanner - Page 33 completed
+P5 completed the Scan job
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 1 completed
+P1 started a Scan job on Scanner (5 pages)
+P1: Scan on Scanner - Page 1 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 2 completed
+P1 started a Scan job on Scanner (5 pages)
+P1: Scan on Scanner - Page 2 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 3 completed
+P1 started a Scan job on Scanner (5 pages)
+P1: Scan on Scanner - Page 3 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 4 completed
+P1 started a Scan job on Scanner (5 pages)
+P1: Scan on Scanner - Page 4 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 5 completed
+P1 started a Scan job on Scanner (5 pages)
+P1: Scan on Scanner - Page 5 completed
+P1 completed the Scan job
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 6 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 7 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 8 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 9 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 10 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 11 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 12 completed
+P1 started a Print job on Printer (13 pages)
+P1: Print on Printer - Page 13 completed
+P1 completed the Print job
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 1 completed
+P3 started a Scan job on Scanner (5 pages)
+P3: Scan on Scanner - Page 1 completed
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 2 completed
+P3 started a Scan job on Scanner (5 pages)
+P3: Scan on Scanner - Page 2 completed
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 3 completed
+P3 started a Scan job on Scanner (5 pages)
+P3: Scan on Scanner - Page 3 completed
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 4 completed
+P3 started a Scan job on Scanner (5 pages)
+P3: Scan on Scanner - Page 4 completed
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 5 completed
+P3 started a Scan job on Scanner (5 pages)
+P3: Scan on Scanner - Page 5 completed
+P3 completed the Scan job
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 6 completed
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 7 completed
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 8 completed
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 9 completed
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 10 completed
+P2 started a Scan job on Scanner (11 pages)
+P2: Scan on Scanner - Page 11 completed
+P2 completed the Scan job
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 1 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 1 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 2 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 2 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 3 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 3 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 4 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 4 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 5 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 5 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 6 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 6 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 7 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 7 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 8 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 8 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 9 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 9 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 10 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 10 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 11 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 11 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 12 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 12 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 13 completed
+P4 started a Print job on Printer (13 pages)
+P4: Print on Printer - Page 13 completed
+P4 completed the Print job
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 14 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 15 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 16 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 17 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 18 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 19 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 20 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 21 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 22 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 23 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 24 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 25 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 26 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 27 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 28 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 29 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 30 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 31 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 32 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 33 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 34 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 35 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 36 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 37 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 38 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 39 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 40 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 41 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 42 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 43 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 44 completed
+P3 started a Scan job on Scanner (45 pages)
+P3: Scan on Scanner - Page 45 completed
+P3 completed the Scan job
+P5 started a Scan job on Scanner (10 pages)
+P5: Scan on Scanner - Page 1 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 1 completed
+P5 started a Scan job on Scanner (10 pages)
+P5: Scan on Scanner - Page 2 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 2 completed
+P5 started a Scan job on Scanner (10 pages)
+P5: Scan on Scanner - Page 3 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 3 completed
+P5 started a Scan job on Scanner (10 pages)
+P5: Scan on Scanner - Page 4 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 4 completed
+P5 started a Scan job on Scanner (10 pages)
+P5: Scan on Scanner - Page 5 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 5 completed
+P5 started a Scan job on Scanner (10 pages)
+P5: Scan on Scanner - Page 6 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 6 completed
+P5 started a Scan job on Scanner (10 pages)
+P5: Scan on Scanner - Page 7 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 7 completed
+P5 started a Scan job on Scanner (10 pages)
+P5: Scan on Scanner - Page 8 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 8 completed
+P5 started a Scan job on Scanner (10 pages)
+P5: Scan on Scanner - Page 9 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 9 completed
+P5 started a Scan job on Scanner (10 pages)
+P5: Scan on Scanner - Page 10 completed
+P1 started a Print job on Printer (15 pages)
+P5 completed the Scan job
+P1: Print on Printer - Page 10 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 11 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 12 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 13 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 14 completed
+P1 started a Print job on Printer (15 pages)
+P1: Print on Printer - Page 15 completed
+P1 completed the Print job
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 1 completed
+P2 started a Print job on Printer (7 pages)
+P2: Print on Printer - Page 1 completed
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 2 completed
+P2 started a Print job on Printer (7 pages)
+P2: Print on Printer - Page 2 completed
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 3 completed
+P2 started a Print job on Printer (7 pages)
+P2: Print on Printer - Page 3 completed
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 4 completed
+P2 started a Print job on Printer (7 pages)
+P2: Print on Printer - Page 4 completed
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 5 completed
+P2 started a Print job on Printer (7 pages)
+P2: Print on Printer - Page 5 completed
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 6 completed
+P2 started a Print job on Printer (7 pages)
+P2: Print on Printer - Page 6 completed
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 7 completed
+P2 started a Print job on Printer (7 pages)
+P2: Print on Printer - Page 7 completed
+P2 completed the Print job
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 8 completed
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 9 completed
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 10 completed
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 11 completed
+P4 started a Print job on Printer (12 pages)
+P4: Print on Printer - Page 12 completed
+P4 completed the Print job
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 1 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 1 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 2 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 2 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 3 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 3 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 4 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 4 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 5 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 5 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 6 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 6 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 7 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 7 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 8 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 8 completed
+P3 started a Print job on Printer (9 pages)
+P3: Print on Printer - Page 9 completed
+P3 completed the Print job
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 9 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 10 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 11 completed
+P5 started a Scan job on Scanner (12 pages)
+P5: Scan on Scanner - Page 12 completed
+P5 completed the Scan job
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 1 completed
+P1 started a Print job on Printer (8 pages)
+P1: Print on Printer - Page 1 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 2 completed
+P1 started a Print job on Printer (8 pages)
+P1: Print on Printer - Page 2 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 3 completed
+P1 started a Print job on Printer (8 pages)
+P1: Print on Printer - Page 3 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 4 completed
+P1 started a Print job on Printer (8 pages)
+P1: Print on Printer - Page 4 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 5 completed
+P1 started a Print job on Printer (8 pages)
+P1: Print on Printer - Page 5 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 6 completed
+P1 started a Print job on Printer (8 pages)
+P1: Print on Printer - Page 6 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 7 completed
+P1 started a Print job on Printer (8 pages)
+P1: Print on Printer - Page 7 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 8 completed
+P1 started a Print job on Printer (8 pages)
+P1: Print on Printer - Page 8 completed
+P1 completed the Print job
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 9 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 10 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 11 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 12 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 13 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 14 completed
+P4 started a Scan job on Scanner (15 pages)
+P4: Scan on Scanner - Page 15 completed
+P4 completed the Scan job
+P3 started a Print job on Printer (2 pages)
+P3: Print on Printer - Page 1 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 1 completed
+P3 started a Print job on Printer (2 pages)
+P3: Print on Printer - Page 2 completed
+P3 completed the Print job
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 2 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 3 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 4 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 5 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 6 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 7 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 8 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 9 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 10 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 11 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 12 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 13 completed
+P2 started a Scan job on Scanner (14 pages)
+P2: Scan on Scanner - Page 14 completed
+P2 completed the Scan job
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 1 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 1 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 2 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 2 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 3 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 3 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 4 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 4 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 5 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 5 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 6 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 6 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 7 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 7 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 8 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 8 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 9 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 9 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 10 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 10 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 11 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 11 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 12 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 12 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 13 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 13 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 14 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 14 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 15 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 15 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 16 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 16 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 17 completed
+P4 started a Scan job on Scanner (17 pages)
+P4: Scan on Scanner - Page 17 completed
+P4 completed the Scan job
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 18 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 19 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 20 completed
+P1 started a Print job on Printer (21 pages)
+P1: Print on Printer - Page 21 completed
+P1 completed the Print job
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 1 completed
+P2 started a Print job on Printer (2 pages)
+P2: Print on Printer - Page 1 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 2 completed
+P2 started a Print job on Printer (2 pages)
+P2: Print on Printer - Page 2 completed
+P2 completed the Print job
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 3 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 4 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 5 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 6 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 7 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 8 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 9 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 10 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 11 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 12 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 13 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 14 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 15 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 16 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 17 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 18 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 19 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 20 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 21 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 22 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 23 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 24 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 25 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 26 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 27 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 28 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 29 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 30 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 31 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 32 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 33 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 34 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 35 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 36 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 37 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 38 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 39 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 40 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 41 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 42 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 43 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 44 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 45 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 46 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 47 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 48 completed
+P5 started a Scan job on Scanner (49 pages)
+P5: Scan on Scanner - Page 49 completed
+P5 completed the Scan job
+P5 started a Print job on Printer (9 pages)
+P5: Print on Printer - Page 1 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 1 completed
+P5 started a Print job on Printer (9 pages)
+P5: Print on Printer - Page 2 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 2 completed
+P5 started a Print job on Printer (9 pages)
+P5: Print on Printer - Page 3 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 3 completed
+P5 started a Print job on Printer (9 pages)
+P5: Print on Printer - Page 4 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 4 completed
+P5 started a Print job on Printer (9 pages)
+P5: Print on Printer - Page 5 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 5 completed
+P5 started a Print job on Printer (9 pages)
+P5: Print on Printer - Page 6 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 6 completed
+P5 started a Print job on Printer (9 pages)
+P5: Print on Printer - Page 7 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 7 completed
+P5 started a Print job on Printer (9 pages)
+P5: Print on Printer - Page 8 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 8 completed
+P5 started a Print job on Printer (9 pages)
+P5: Print on Printer - Page 9 completed
+P5 completed the Print job
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 9 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 10 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 11 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 12 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 13 completed
+P3 started a Scan job on Scanner (14 pages)
+P3: Scan on Scanner - Page 14 completed
+P3 completed the Scan job
+P1 started a Scan job on Scanner (5 pages)
+P1: Scan on Scanner - Page 1 completed
+P2 started a Scan job on Scanner (8 pages)
+P2: Scan on Scanner - Page 1 completed
+P1 started a Scan job on Scanner (5 pages)
+P1: Scan on Scanner - Page 2 completed
+P2 started a Scan job on Scanner (8 pages)
+P2: Scan on Scanner - Page 2 completed
+P1 started a Scan job on Scanner (5 pages)
+P1: Scan on Scanner - Page 3 completed
+P2 started a Scan job on Scanner (8 pages)
+P2: Scan on Scanner - Page 3 completed
+P1 started a Scan job on Scanner (5 pages)
+P1: Scan on Scanner - Page 4 completed
+P2 started a Scan job on Scanner (8 pages)
+P2: Scan on Scanner - Page 4 completed
+P1 started a Scan job on Scanner (5 pages)
+P1: Scan on Scanner - Page 5 completed
+P1 completed the Scan job
+P2 started a Scan job on Scanner (8 pages)
+P2: Scan on Scanner - Page 5 completed
+P2 started a Scan job on Scanner (8 pages)
+P2: Scan on Scanner - Page 6 completed
+P2 started a Scan job on Scanner (8 pages)
+P2: Scan on Scanner - Page 7 completed
+P2 started a Scan job on Scanner (8 pages)
+P2: Scan on Scanner - Page 8 completed
+P2 completed the Scan job
+P5 started a Scan job on Scanner (2 pages)
+P5: Scan on Scanner - Page 1 completed
+P1 started a Scan job on Scanner (9 pages)
+P1: Scan on Scanner - Page 1 completed
+P5 started a Scan job on Scanner (2 pages)
+P5: Scan on Scanner - Page 2 completed
+P5 completed the Scan job
+P1 started a Scan job on Scanner (9 pages)
+P1: Scan on Scanner - Page 2 completed
+P1 started a Scan job on Scanner (9 pages)
+P1: Scan on Scanner - Page 3 completed
+P1 started a Scan job on Scanner (9 pages)
+P1: Scan on Scanner - Page 4 completed
+P1 started a Scan job on Scanner (9 pages)
+P1: Scan on Scanner - Page 5 completed
+P1 started a Scan job on Scanner (9 pages)
+P1: Scan on Scanner - Page 6 completed
+P1 started a Scan job on Scanner (9 pages)
+P1: Scan on Scanner - Page 7 completed
+P1 started a Scan job on Scanner (9 pages)
+P1: Scan on Scanner - Page 8 completed
+P1 started a Scan job on Scanner (9 pages)
+P1: Scan on Scanner - Page 9 completed
+P1 completed the Scan job
+
+=== All Jobs Completed ===
+Total Execution Time: 635412 ms
+
+=== Choose Execution Type ===
+1. Unsynchronized Execution
+2. Execution with Mutex
+3. Execution with Semaphores
+4. Execution with Peterson's Solution
+5. Exit
+Enter your choice: 
